@@ -8,8 +8,10 @@
  Add README : mở On
  create reposity
  #3. https://desktop.github.com/download/ tải github.exe về và chọn tên đã nhập tại reposity name chạy trên gibhub
- #4. copy file webapplication đã tạo vào thư mục có chứa readme.md rồi chạy gibhub desktop chọn commit ...  to main
-# Xong mình nhấn Ctrl + P để up lên github
+ #4. Trong GitHub Desktop:Chọn File → Clone repository,Chọn repository vừa tạo,Chọn thư mục lưu trên máy=>Nhấn Clone
+
+ #5. copy file webapplication đã tạo vào thư mục có chứa readme.md rồi Mở gibhub desktop nhập Summary : nhập nội dung và chọn commit ...  to main
+ # sau khi commit  Xong mình nhấn Push origin để up lên github
 
 
 # Để chia sẻ cho 1 tài khoản khác mình chọn setting Collaborators => Add people ( nhập tài khoản cần chia sẻ)
