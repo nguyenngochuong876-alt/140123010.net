@@ -71,6 +71,7 @@
     <Content Include="Images\H1.jpg" />
     <Content Include="Images\H2.jpg" />
     <Content Include="Images\H3.jpg" />
+    <Content Include="Lienhe.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Signup.aspx" />
     <Content Include="Web.config" />
@@ -82,6 +83,13 @@
     </Compile>
     <Compile Include="default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Lienhe.aspx.cs">
+      <DependentUpon>Lienhe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Lienhe.aspx.designer.cs">
+      <DependentUpon>Lienhe.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
