@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Avatar\anh1.jpg" />
     <Content Include="default.aspx" />
     <Content Include="Images\H1.jpg" />
     <Content Include="Images\H2.jpg" />
@@ -84,6 +85,7 @@
     <Compile Include="default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Ketnoi.cs" />
     <Compile Include="Lienhe.aspx.cs">
       <DependentUpon>Lienhe.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -124,6 +126,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
