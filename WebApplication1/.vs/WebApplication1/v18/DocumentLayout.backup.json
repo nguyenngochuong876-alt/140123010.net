@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "D:\\Huong\\140123010.net\\140123010.net\\140123010.net\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{76398EE1-379B-4A66-BC5B-9472AE2649A6}|WebApplication1\\WebApplication1.csproj|D:\\Huong\\140123010.net\\140123010.net\\140123010.net\\WebApplication1\\webapplication1\\signup.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{76398EE1-379B-4A66-BC5B-9472AE2649A6}|WebApplication1\\WebApplication1.csproj|d:\\huong\\140123010.net\\140123010.net\\140123010.net\\webapplication1\\webapplication1\\signup.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76398EE1-379B-4A66-BC5B-9472AE2649A6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\signup.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76398EE1-379B-4A66-BC5B-9472AE2649A6}|WebApplication1\\WebApplication1.csproj|d:\\huong\\140123010.net\\140123010.net\\140123010.net\\webapplication1\\webapplication1\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{76398EE1-379B-4A66-BC5B-9472AE2649A6}|WebApplication1\\WebApplication1.csproj|D:\\Huong\\140123010.net\\140123010.net\\140123010.net\\WebApplication1\\webapplication1\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{76398EE1-379B-4A66-BC5B-9472AE2649A6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
@@ -60,7 +60,7 @@
               "RelativeDocumentMoniker": "WebApplication1\\Signup.aspx.cs",
               "ToolTip": "D:\\Huong\\140123010.net\\140123010.net\\140123010.net\\WebApplication1\\WebApplication1\\Signup.aspx.cs",
               "RelativeToolTip": "WebApplication1\\Signup.aspx.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAiwD8AAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAiwD8AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-06T09:32:46.561Z",
               "EditorCaption": ""
@@ -86,8 +86,7 @@
               "ToolTip": "D:\\Huong\\140123010.net\\140123010.net\\140123010.net\\WebApplication1\\WebApplication1\\Site1.Master",
               "RelativeToolTip": "WebApplication1\\Site1.Master",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-02-06T09:32:46.561Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T09:32:46.561Z"
             },
             {
               "$type": "Document",
@@ -111,8 +110,7 @@
               "RelativeToolTip": "WebApplication1\\Login.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-02-06T09:32:47.047Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T09:32:47.047Z"
             },
             {
               "$type": "Document",
