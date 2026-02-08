@@ -16,7 +16,7 @@ namespace WebApplication1
         protected void Page_Load(object sender, EventArgs e)
         {
             if (Session["user"] != null)
-                Response.Redirect("default.asp"); 
+                Response.Redirect("default.aspx"); 
         }
 
         protected void btnLogin_Click(object sender, EventArgs e)
