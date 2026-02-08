@@ -59,8 +59,18 @@
                 <li><a href="#">Contact</a></li>
               </ul>
               <ul class="nav navbar-nav navbar-right">
+                  <%if (Session["user"] != null)
+                      {
+                          %>
+                  <li><a href="Logout.aspx"><span class="glyphicon glyphicon-log-out"></span>(<%Response.Write(Session["user"].ToString()); %>)> Logout</a></li>
+                    <%   
+                        }
+                        else
+                        { %>                                            
                 <li><a href="Login.aspx"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
                  <li><a href="Signup.aspx"><span class="glyphicon glyphicon-user"></span> Signup</a></li>
+              <% }%>
+
               </ul>
             </div>
           </div>

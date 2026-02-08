@@ -19,6 +19,8 @@ namespace WebApplication1
         Ketnoi kn = new Ketnoi();
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["Username"] != null)
+                Response.Redirect("default.aspx");
             if (!IsPostBack)
             {
 
