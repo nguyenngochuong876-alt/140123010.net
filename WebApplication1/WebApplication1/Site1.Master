@@ -62,7 +62,7 @@
                   <%if (Session["user"] != null)
                       {
                           %>
-                  <li><a href="Logout.aspx"><span class="glyphicon glyphicon-log-out"></span>(<%Response.Write(Session["user"].ToString()); %>)> Logout</a></li>
+                  <li><a href="Logout.aspx"><span class="glyphicon glyphicon-log-out"></span>(<%Response.Write(Session["user"].ToString()); %>) Logout</a></li>
                     <%   
                         }
                         else
