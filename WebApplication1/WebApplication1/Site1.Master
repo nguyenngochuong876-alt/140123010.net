@@ -54,9 +54,9 @@
             <div class="collapse navbar-collapse" id="myNavbar">
               <ul class="nav navbar-nav">
                 <li class="active"><a href="default.aspx">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="QLgiaovien.aspx">Quản lý Giáo viên</a></li>
+                <li><a href="QLmonhoc.aspx">Quản lý Môn học</a></li>
+                <li><a href="#QLdiem.aspx">Quản lý Điểm</a></li>
               </ul>
               <ul class="nav navbar-nav navbar-right">
                   <%if (Session["user"] != null)

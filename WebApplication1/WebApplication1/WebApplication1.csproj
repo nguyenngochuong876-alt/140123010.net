@@ -75,6 +75,7 @@
     <Content Include="Lienhe.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Logout.aspx" />
+    <Content Include="QLgiaovien.aspx" />
     <Content Include="Signup.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -109,6 +110,13 @@
       <DependentUpon>Logout.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QLgiaovien.aspx.cs">
+      <DependentUpon>QLgiaovien.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QLgiaovien.aspx.designer.cs">
+      <DependentUpon>QLgiaovien.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Signup.aspx.cs">
       <DependentUpon>Signup.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
