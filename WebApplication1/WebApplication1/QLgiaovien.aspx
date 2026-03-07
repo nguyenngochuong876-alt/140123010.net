@@ -4,10 +4,13 @@
         .auto-style1 {
             width: 345px;
         }
+        .auto-style2 {
+            width: 123px;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
+   
     <table class="table">
         <tr>
             <td class="auto-style1">Mã GV:</td>
@@ -31,6 +34,14 @@
                 <asp:Button ID="btnsua" runat="server" OnClick="Btnsua_Click" Text="Sửa" />
             </td>
         </tr>
+    </table>
+        <table class="table">
+    <tr>
+    <td class="auto-style2"><asp:Button ID="btntim" runat="server" Text="Tìm kiếm" OnClick="btntim_Click" />
+        </td>
+    <td><asp:TextBox ID="txttim" runat="server" CssClass="form-control" required="required"></asp:TextBox></td>
+</tr>
+    
     </table>
     <h3>Danh sách giáo viên</h3>
     <asp:GridView ID="qlgv" runat="server" CssClass="table" DataKeyNames="MaGV" OnRowDeleting="qlgv_RowDeleting" OnSelectedIndexChanged="qlgv_SelectedIndexChanged">

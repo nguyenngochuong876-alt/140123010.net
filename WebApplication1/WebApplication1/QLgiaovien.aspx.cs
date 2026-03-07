@@ -110,5 +110,21 @@ namespace WebApplication1
             txtDiachi.Text = "";
 
         }
+        void timkiem(string keywords)
+        {
+            string sql = "select MaGV,HoGV,TenGV,Diachi from GiaoVien where TenGV like '%" + keywords + "%'";
+            SqlDataAdapter da = new SqlDataAdapter(sql, kn.con);
+            DataSet ds = new DataSet();
+            da.Fill(ds);
+            qlgv.DataSource = ds;
+            qlgv.DataBind();
+        }
+
+       
+        protected void btntim_Click(object sender, EventArgs e)
+        {
+            string tengv = txttim.Text;
+            timkiem(tengv);
+        }
     }
 }
