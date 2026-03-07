@@ -56,7 +56,8 @@
                 <li class="active"><a href="default.aspx">Home</a></li>
                 <li><a href="QLgiaovien.aspx">Quản lý Giáo viên</a></li>
                 <li><a href="QLmonhoc.aspx">Quản lý Môn học</a></li>
-                <li><a href="#QLdiem.aspx">Quản lý Điểm</a></li>
+                <li><a href="QLdiem.aspx">Quản lý Điểm</a></li>
+                <li><a href="QLhocvien.aspx">Quản lý Học Viên</a></li>
               </ul>
               <ul class="nav navbar-nav navbar-right">
                   <%if (Session["user"] != null)

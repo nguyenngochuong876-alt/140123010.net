@@ -11,35 +11,35 @@ namespace WebApplication1
 {
 
 
-    public partial class QLgiaovien
+    public partial class QLhocvien
     {
 
         /// <summary>
-        /// txtmagv control.
+        /// txtmahv control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtmagv;
+        protected global::System.Web.UI.WebControls.TextBox txtmahv;
 
         /// <summary>
-        /// txtHo control.
+        /// txtHohv control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtHo;
+        protected global::System.Web.UI.WebControls.TextBox txtHohv;
 
         /// <summary>
-        /// txtTen control.
+        /// txtTenhv control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtTen;
+        protected global::System.Web.UI.WebControls.TextBox txtTenhv;
 
         /// <summary>
         /// txtDiachi control.
@@ -60,21 +60,12 @@ namespace WebApplication1
         protected global::System.Web.UI.WebControls.Button btnThem;
 
         /// <summary>
-        /// btnsua control.
+        /// qlhv control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnsua;
-
-        /// <summary>
-        /// qlgv control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView qlgv;
+        protected global::System.Web.UI.WebControls.GridView qlhv;
     }
 }

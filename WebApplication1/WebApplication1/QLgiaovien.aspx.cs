@@ -26,6 +26,7 @@ namespace WebApplication1
                 hienthi();
 
             }
+            btnsua.Enabled = false;
         }
 
         protected void btnLogin_Click(object sender, EventArgs e)
@@ -62,6 +63,52 @@ namespace WebApplication1
             da.Fill(ds);
             qlgv.DataSource = ds;
             qlgv.DataBind();
+        }
+
+        protected void qlgv_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            txtmagv.Text = qlgv.SelectedRow.Cells[2].Text;
+            txtHo.Text = HttpUtility.HtmlDecode(qlgv.SelectedRow.Cells[3].Text);
+            txtTen.Text = HttpUtility.HtmlDecode(qlgv.SelectedRow.Cells[4].Text);
+            txtDiachi.Text = HttpUtility.HtmlDecode(qlgv.SelectedRow.Cells[5].Text);
+            txtmagv.Enabled = false;
+            btnThem.Enabled = false;
+            btnsua.Enabled = true;
+        }
+
+        protected void qlgv_RowDeleting(object sender, GridViewDeleteEventArgs e)
+        {
+            string magv = qlgv.DataKeys[e.RowIndex].Values["MaGV"].ToString();
+            string sql = "delete from GiaoVien where MaGV='" + magv + "'";
+            SqlCommand cmd = new SqlCommand(sql, kn.con);
+
+            kn.con.Open();
+            cmd.ExecuteNonQuery();
+            kn.con.Close();
+
+            hienthi();
+        }
+
+        protected void Btnsua_Click(object sender, EventArgs e)
+        {
+            string magv = txtmagv.Text;
+            string ho = txtHo.Text;
+            string ten = txtTen.Text;
+            string diachi = txtDiachi.Text;
+            string sql = "update GiaoVien set HoGV=N'" + ho + "',TenGV=N'" + ten + "',DiaChi=N'" + diachi + "' where MaGV='" + magv + "'";
+            SqlCommand cmd = new SqlCommand(sql, kn.con);
+            kn.con.Open();
+            cmd.ExecuteNonQuery();
+            kn.con.Close();
+            hienthi();
+
+            btnThem.Enabled = true;
+            txtmagv.Enabled = true;
+            txtmagv.Text = "";
+            txtHo.Text = "";
+            txtTen.Text = "";
+            txtDiachi.Text = "";
+
         }
     }
 }

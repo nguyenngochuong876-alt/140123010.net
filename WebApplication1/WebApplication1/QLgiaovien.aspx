@@ -11,7 +11,7 @@
     <table class="table">
         <tr>
             <td class="auto-style1">Mã GV:</td>
-            <td><asp:TextBox ID="txtmagv" runat="server" CssClass="form-control"></asp:TextBox></td>
+            <td><asp:TextBox ID="txtmagv" runat="server" CssClass="form-control" required="required"></asp:TextBox></td>
         </tr>
         <tr>
              <td class="auto-style1">Họ GV:</td>
@@ -27,11 +27,14 @@
  </tr>
         <tr>
    
-            <td colspan="2"><asp:Button ID="btnThem" runat="server" Text="Thêm" OnClick="btnLogin_Click"/></td>
+            <td colspan="2"><asp:Button ID="btnThem" runat="server" Text="Thêm" OnClick="btnLogin_Click"/>
+                <asp:Button ID="btnsua" runat="server" OnClick="Btnsua_Click" Text="Sửa" />
+            </td>
         </tr>
     </table>
     <h3>Danh sách giáo viên</h3>
-    <asp:GridView ID="qlgv" runat="server" CssClass="table">
+    <asp:GridView ID="qlgv" runat="server" CssClass="table" DataKeyNames="MaGV" OnRowDeleting="qlgv_RowDeleting" OnSelectedIndexChanged="qlgv_SelectedIndexChanged">
+        
         <Columns>
             <asp:CommandField ShowSelectButton="True" />
             <asp:CommandField ShowDeleteButton="True" />
