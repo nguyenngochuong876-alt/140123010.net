@@ -9,7 +9,7 @@ using System.Data.SqlClient;
 
 namespace WebApplication1
 {
-    public partial class QLHocvien : System.Web.UI.Page
+    public partial class QLhocvien : System.Web.UI.Page
     {
         // Khởi tạo đối tượng kết nối từ class Ketnoi
         Ketnoi kn = new Ketnoi();
@@ -101,7 +101,7 @@ namespace WebApplication1
                 cmd.ExecuteNonQuery();
                 kn.con.Close();
                 hienthi();
-                Response.Redirect("QLHocvien.aspx");
+                Response.Redirect("QLhocvien.aspx");
             }
         }
 
