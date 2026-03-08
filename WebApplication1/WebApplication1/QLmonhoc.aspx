@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="QLHocvien.aspx.cs" Inherits="WebApplication1.QLHocvien" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="QLmonhoc.aspx.cs" Inherits="WebApplication1.QLmonhoc" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container mt-4">
@@ -28,7 +28,7 @@
         <input class="form-control" id="myInput" type="text" placeholder="Search..">
         <br />
 
-        <asp:Repeater runat="server" ID="rpHV">
+        <asp:Repeater runat="server" ID="rpMH">
             <HeaderTemplate>
                 <table class="table table-bordered table-striped">
                     <thead>
@@ -47,12 +47,12 @@
                 <tr>
                     <td><%# Eval("MaMH") %></td>
                     <td><%# Eval("TenMH") %></td>
-                    <td><%# Eval("TenHV") %></td>
-                    <td><%# Eval("Diachi") %></td>
+                    <td><%# Eval("SoTiet") %></td>
+                    <td><%# Eval("HocPhi") %></td>
                     <td>
-                        <a href='QLhocvien.aspx?mahvs=<%# Eval("MaHV") %>' class="btn btn-sm btn-info">Sửa</a>
+                        <a href='QLmonhoc.aspx?mamhs=<%# Eval("MaMH") %>' class="btn btn-sm btn-info">Sửa</a>
                         &nbsp;
-                        <a href='QLhocvien.aspx?mahvx=<%# Eval("MaHV") %>' 
+                        <a href='QLmonhoc.aspx?mamhx=<%# Eval("MaMH") %>' 
                            onclick="return confirm('Bạn có chắc chắn muốn xóa?')" 
                            class="btn btn-sm btn-danger">Xóa</a>
                     </td>

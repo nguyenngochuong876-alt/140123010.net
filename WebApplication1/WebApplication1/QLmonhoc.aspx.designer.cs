@@ -24,13 +24,13 @@ namespace WebApplication1
         protected global::System.Web.UI.WebControls.TextBox txtmamh;
 
         /// <summary>
-        /// txttenmh control.
+        /// txtTenmh control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txttenmh;
+        protected global::System.Web.UI.WebControls.TextBox txtTenmh;
 
         /// <summary>
         /// txtsotiet control.
@@ -51,21 +51,30 @@ namespace WebApplication1
         protected global::System.Web.UI.WebControls.TextBox txthocphi;
 
         /// <summary>
-        /// btnThemMH control.
+        /// btnThem control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnThemMH;
+        protected global::System.Web.UI.WebControls.Button btnThem;
 
         /// <summary>
-        /// qlmh control.
+        /// btnsua control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView qlmh;
+        protected global::System.Web.UI.WebControls.Button btnsua;
+
+        /// <summary>
+        /// rpMH control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Repeater rpMH;
     }
 }
