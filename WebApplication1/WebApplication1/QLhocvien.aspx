@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="QLHocvien.aspx.cs" Inherits="WebApplication1.QLHocvien" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="QLhocvien.aspx.cs" Inherits="WebApplication1.QLHocvien" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container mt-4">
@@ -48,7 +48,7 @@
                     <td><%# Eval("MaHV") %></td>
                     <td><%# Eval("HoHV") %></td>
                     <td><%# Eval("TenHV") %></td>
-                    <td><%# Eval("Diachi") %></td>
+                    <td><%# Eval("DiaChi") %></td>
                     <td>
                         <a href='QLhocvien.aspx?mahvs=<%# Eval("MaHV") %>' class="btn btn-sm btn-info">Sửa</a>
                         &nbsp;

@@ -59,7 +59,7 @@ namespace WebApplication1
                     cmd.ExecuteNonQuery();
                     kn.con.Close();
                     hienthi();
-                    Response.Redirect("QLHocvien.aspx");
+                    Response.Redirect("QLhocvien.aspx");
                 }
             }
         }
@@ -67,7 +67,7 @@ namespace WebApplication1
         // Hàm hiển thị dữ liệu lên Repeater
         void hienthi()
         {
-            string sql = "select MaHV, HoHV, TenHV, Diachi from HocVien";
+            string sql = "select MaHV, HoHV, TenHV, DiaChi from HocVien";
             SqlDataAdapter da = new SqlDataAdapter(sql, kn.con);
             DataTable dt = new DataTable();
             da.Fill(dt);
