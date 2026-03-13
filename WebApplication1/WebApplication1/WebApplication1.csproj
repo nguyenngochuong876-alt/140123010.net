@@ -67,6 +67,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin\assets\demo\chart-area-demo.js" />
+    <Content Include="Admin\assets\demo\chart-bar-demo.js" />
+    <Content Include="Admin\assets\demo\chart-pie-demo.js" />
+    <Content Include="Admin\assets\demo\datatables-demo.js" />
+    <Content Include="Admin\assets\img\error-404-monochrome.svg" />
+    <Content Include="Admin\BangDiem.aspx" />
+    <Content Include="Admin\css\styles.css" />
+    <Content Include="Admin\Default.aspx" />
+    <Content Include="Admin\js\datatables-simple-demo.js" />
+    <Content Include="Admin\js\scripts.js" />
+    <Content Include="Admin\QLgiaovien.aspx" />
+    <Content Include="Admin\QLNguoiDung.aspx" />
     <Content Include="Avatar\anh1.jpg" />
     <Content Include="default.aspx" />
     <Content Include="Images\H1.jpg" />
@@ -76,13 +88,47 @@
     <Content Include="Login.aspx" />
     <Content Include="Logout.aspx" />
     <Content Include="QLdiem.aspx" />
-    <Content Include="QLgiaovien.aspx" />
     <Content Include="QLhocvien.aspx" />
     <Content Include="QLmonhoc.aspx" />
     <Content Include="Signup.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin\admin.Master.cs">
+      <DependentUpon>admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\admin.Master.designer.cs">
+      <DependentUpon>admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\BangDiem.aspx.cs">
+      <DependentUpon>BangDiem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\BangDiem.aspx.designer.cs">
+      <DependentUpon>BangDiem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\QLgiaovien.aspx.cs">
+      <DependentUpon>QLgiaovien.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\QLgiaovien.aspx.designer.cs">
+      <DependentUpon>QLgiaovien.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\QLNguoiDung.aspx.cs">
+      <DependentUpon>QLNguoiDung.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\QLNguoiDung.aspx.designer.cs">
+      <DependentUpon>QLNguoiDung.aspx</DependentUpon>
+    </Compile>
     <Compile Include="default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -120,13 +166,6 @@
     <Compile Include="QLdiem.aspx.designer.cs">
       <DependentUpon>QLdiem.aspx</DependentUpon>
     </Compile>
-    <Compile Include="QLgiaovien.aspx.cs">
-      <DependentUpon>QLgiaovien.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="QLgiaovien.aspx.designer.cs">
-      <DependentUpon>QLgiaovien.aspx</DependentUpon>
-    </Compile>
     <Compile Include="QLhocvien.aspx.cs">
       <DependentUpon>QLhocvien.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -157,6 +196,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin\admin.Master" />
     <None Include="packages.config" />
     <Content Include="Site1.Master" />
     <None Include="Web.Debug.config">

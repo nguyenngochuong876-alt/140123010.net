@@ -17,10 +17,10 @@ namespace WebApplication1
         Ketnoi kn = new Ketnoi();
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["user"] == null)
-            {
-                Response.Redirect("Login.aspx");
-            }
+            //if (Session["user"] == null)
+            //{
+            //    Response.Redirect("Login.aspx");
+            //}
             if (!IsPostBack)
             {
                 hienthi();
