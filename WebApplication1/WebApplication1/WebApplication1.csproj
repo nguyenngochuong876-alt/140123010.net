@@ -77,6 +77,7 @@
     <Content Include="Admin\Default.aspx" />
     <Content Include="Admin\js\datatables-simple-demo.js" />
     <Content Include="Admin\js\scripts.js" />
+    <Content Include="Admin\PhancongGV.aspx" />
     <Content Include="Admin\QLgiaovien.aspx" />
     <Content Include="Admin\QLNguoiDung.aspx" />
     <Content Include="Avatar\anh1.jpg" />
@@ -114,6 +115,13 @@
     </Compile>
     <Compile Include="Admin\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\PhancongGV.aspx.cs">
+      <DependentUpon>PhancongGV.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\PhancongGV.aspx.designer.cs">
+      <DependentUpon>PhancongGV.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admin\QLgiaovien.aspx.cs">
       <DependentUpon>QLgiaovien.aspx</DependentUpon>
